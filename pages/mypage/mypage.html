@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./mypage.css">
+    <script defer src="../../js/login-popup.js"></script>
+    <title>Обо мне)</title>
+  </head>
+  <body class="root">
+    <header class="header">
+      <a class="logo" href="#">
+        <img class="site-logo" src="../../images/logo.svg" alt="Логотип">
+      </a>
+      <ul class="site-menu">
+        <li class="heading">
+          <a class="menu-link" href="../../index.html">Главная</a>
+        </li>
+        <li class="heading">
+          <a class="menu-link" href="../students/students.html">Студенты</a>
+        </li>
+        <li class="heading">
+          <a class="menu-link" href="../about/about.html">О курсе</a>
+        </li>
+        <li class="heading">
+          <a class="menu-link" href="../contacts/contacts.html">Контакты</a>
+        </li>       
+      </ul>
+      <button class="login-button">Войти</button> 
+      <div class="overlay">
+         <div class="popup">
+            <img src="../../images/close.svg" alt="иконка закрытия" class="popup-close">
+            <h2 class="popup-title">Войти на сайт</h2>
+            <form class="login-form" action="#" method="GET">
+            <input class="login-input" name="login" type="text" placeholder="Логин" required="">
+            <input class="password-input" name="password" type="password" placeholder="Пароль" required="">
+            <button class="login-button" type="submit">Войти</button></form>
+         </div>  
+      </div>
+    </header>
+    <main class="main">     
+      <h1 class="main-heading"> Кто я? И чем увлекаюсь </h1>  
+       <div class="content-order">
+        <div class="content-order-left">
+      <p class="intro-text">Я простой человек со своими интересами и увлечениями и хобби
+         мое разнообразно, но в основном многое касается спорта.</p>    
+      <h2 class="content-heading">Спорт, который я люблю:</h2>   
+          <ul class="text-ul">
+            <li class="class-center-li"><p class="intro-text-li">Футбол</p></li>
+            <li class="class-center-em"><p class="text-li">
+              Моя страсть с ранних лет, обожаю все, что связано с этой игрой.</p></li>
+            <li class="class-center-li"><p class="intro-text-li">Волейбол</p></li>
+            <li class="class-center-em"><p class="text-li">
+              С детства эта игра у меня ассоциируется с морем, солнцем и беззаботными днями.</p></li>
+            <li class="class-center-li"><p class="intro-text-li">Шахматы</p></li>
+            <li class="class-center-em"><p class="text-li">
+              А что? Тоже спорт, хотя я в них не так силен.</p></li>
+          </ul>          
+          <h2 class="content-heading">Сайты которые мне нравятся:</h2>  
+          <ul class="text-ul">
+          <li class="class-center-li"><p class="intro-text-a">Много сервисов 
+            <a class="intro-a" href="https://yandex.ru" target="_blank">Яндекс</a></p></li>  
+          <li class="class-center-li"><p class="intro-text-a">Хороший поисковик 
+            <a class="intro-a" href="https://google.ru" target="_blank">Google</a></p></li>
+          <li class="class-center-li"><p class="intro-text-a">Изумительный дизайн 
+            <a class="intro-a" href="https://redcollar.ru/" target="_blank">Red collar</a></p></li>
+         </ul>
+         <h2 class="content-heading">Что мне греет душу:</h2>
+          <div class="div-photo-like">
+            <img class="photo-like" src="../../images/cat.jpg" alt="Котик">
+            <img class="photo-like" src="../../images/kino.jpg" alt="Кино">
+            <img class="photo-like" src="../../images/ferrari.jpg" alt="Феррари">
+          </div>
+        </div>
+        <div class="content-order-right">           
+          <div class="photo-ya">
+            <img class="ya_color" src="../../images/ya_color.jpg" alt="Мое Фото Цветное">
+            <img class="ya_black" src="../../images/ya_black.jpg" alt="Мое Фото ЧБ">
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <p class="copywrite">2022 &copy;
+        <a class="innopolis-link" target="_blank" href="https://innopolis.com">учебный центр</a>
+      </p>
+    </footer>
+  </body>
+</html>

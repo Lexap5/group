@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./about.css">
+    <script defer src="../../js/login-popup.js"></script>
+    <title>О курсе</title>
+  </head>
+  <body class="root">
+    <header class="header">
+      <a class="logo" href="#">
+        <img class="site-logo" src="../../images/logo.svg" alt="Логотип">
+      </a>
+      <ul class="site-menu">
+        <li class="heading">
+          <a class="menu-link" href="../../index.html">Главная</a>
+        </li>
+        <li class="heading">
+          <a class="menu-link" href="../students/students.html">Студенты</a>
+        </li>
+        <li class="heading">
+          <a class="menu-link" href="../about/about.html">О курсе</a>
+        </li>
+        <li class="heading">
+          <a class="menu-link" href="../contacts/contacts.html">Контакты</a>
+        </li>       
+      </ul>
+      <button class="login-button">Войти</button> 
+      <div class="overlay">
+         <div class="popup">
+            <img src="../../images/close.svg" alt="иконка закрытия" class="popup-close">
+            <h2 class="popup-title">Войти на сайт</h2>
+            <form class="login-form" action="#" method="GET">
+            <input class="login-input" name="login" type="text" placeholder="Логин" required="">
+            <input class="password-input" name="password" type="password" placeholder="Пароль" required="">
+            <button class="login-button" type="submit">Войти</button></form>
+         </div>  
+      </div>
+    </header>
+    <main class="main">
+     <h1 class="main-heading">О курсе 📱</h1>
+     <p class="about">Посмотрите видео о нас</p>
+     <div class="section">      
+      <iframe class="video" src="https://www.youtube.com/embed/0v7pdd4za6s"  allowfullscreen></iframe>    
+     </div>    
+    </main>
+    <footer class="footer">
+      <p class="copywrite">2022 &copy;
+        <a class="innopolis-link" target="_blank" href="https://innopolis.com">учебный центр</a>
+      </p>
+    </footer>
+  </body>
+</html>
